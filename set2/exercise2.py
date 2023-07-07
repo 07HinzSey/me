@@ -11,7 +11,7 @@ file from top to bottom.
 import string
 
 # E.g. det isn't a reserved word, it should be def
-det getLetter(index):
+def getLetter(index):
     the_alphabet = string.ascii_lowercase + " "
     return the_alphabet(index] # <-- this should be using [] to index into a list
 
