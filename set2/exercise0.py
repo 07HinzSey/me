@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 from helper import minitest
 
-"""Modify each function so that it does what the doc string asks you to do.
+"""Modify each function so that it does what the doc string asks you to do.cc
 
 The command to run the tests is:
 
@@ -81,7 +81,7 @@ def really_shout(a_string):
     that you've reused the function you already wrote.
     Look up how to 'concatinate' strings to make this happen.
     """
-    the_answer = None
+    the_answer = a_string.upper()+"!"
     return the_answer
 
 
@@ -97,7 +97,7 @@ def shout_with_a_number(a_string, a_number):
           challenge, see if you can make the test pass with at least two ways
           of doing the same job.
     """
-    the_answer = None
+    the_answer = (a_string).upper + " " +py str(a_number)
     return the_answer
 
 
