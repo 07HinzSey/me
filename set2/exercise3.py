@@ -19,9 +19,9 @@ def is_odd(a_number):
 
     So if a_number modulo two is zero, then it's even.
     """
-    return a_number % 2 >0
-        #because if it returns 0 then 2 divides equally into a_number therfore a_number is an even number
-        
+    return a_number % 2 > 0
+        # because if it returns 0 then 2 divides equally into a_number therfore a_number is an even number
+        # if a_number % 2 == 0, then false, else, true
 
 
 def fix_it(moves=True, should_move=True):
@@ -49,8 +49,8 @@ def loops_preview():
     return a list of 8 items, each one a string with exacly one 💩 in it.
     E.g.: ['💩', '💩', '💩', '💩', '💩', '💩', '💩', '💩']
     """
-    choc_list = []
-    for i in range(8):
+    choc_list = ['💩']
+    for i in range(7):
         choc_list.append("💩")
     return choc_list
 
@@ -62,7 +62,10 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-    return None
+    loop_list = ['*']
+    for i in range(9):
+        loop_list.append("*")
+    return loop_list
 
 
 def loops_1c(number_of_items=5, symbol="#"):
