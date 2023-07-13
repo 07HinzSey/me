@@ -27,7 +27,7 @@ def set2exersise2(): # this is semi-right
     return secret_word
 
 
-if __name__ == "__main__":  
+if __name__ == "__main__":
     #        ⟰-- we use = for asignment, 
     # and == for checking if things are equal, 
     # this isn't either!
