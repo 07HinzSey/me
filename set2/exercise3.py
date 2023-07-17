@@ -32,14 +32,21 @@ def fix_it(moves=True, should_move=True):
     response to the input parameters.
     Use conditional statements: if, else, elif etc.
     This function should return either:
-    "WD-40"
+    "WD-40" 
     "Duct Tape"
     "No Problem"
 
     Most people write this function with 4 return statements.
     As an extra challenge, see if you can get that down to three.
     """
-    return None
+
+    if fix_it == moves or should_move:
+        return ("No Problem")
+    elif fix_it:
+        return ("WD-40")
+    else:
+        return ("Duct Tape")
+        
 
 
 def loops_preview():
@@ -78,7 +85,10 @@ def loops_1c(number_of_items=5, symbol="#"):
     Remember that you're being passed arguments here. Don't hard code the number
     or the symbol, let it be whatever it wants to be.
     """
-    return None
+    loops_1c_list = [symbol]
+    for i in range(number_of_items):
+        loops_1c_list.append(symbol)
+    return loops_1c_list
 
 
 def loops_2_preview():
@@ -120,7 +130,13 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    return None
+    field = []
+    for i in range(10):
+        row = []
+        for j in range(10):
+            row.append("💩")
+        field.append(row)
+    return field
 
 
 def loops_3():
