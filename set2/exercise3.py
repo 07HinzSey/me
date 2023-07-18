@@ -160,7 +160,13 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    return None
+    field = []
+    for i in range(11):
+        row = []
+        for j in range(10):
+            row.append("69")
+        field.append(row)
+    return field
 
 
 def loops_4():
